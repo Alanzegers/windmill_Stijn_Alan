@@ -1,4 +1,8 @@
-opener <- function(){
+## Alan Zegers & Stijn Wijdeven
+# January 2016
+
+	#open files
+	
 	dsn1 <- file.path("data/Top10NL-Plaats-Bebouwdekom.shp")
 	dsn2 <- file.path("data/Top10NL_Inricht_el_Hoogspanningsleidingen.shp")
 	dsn3 <- file.path("data/nwb_06_highwaysubset.shp")
