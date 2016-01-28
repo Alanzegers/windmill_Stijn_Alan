@@ -1,3 +1,7 @@
+# Alan Zegers & Stijn Wijdeven
+# January 2016
+# Select NL/Province/Municipality
+
 user_input <- function(){
 	library(raster)
 	level <- readline("Default is The Netherlands, otherwise type 'province' or 'municipality'. ")
