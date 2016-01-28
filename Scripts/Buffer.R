@@ -1,3 +1,11 @@
+## Alan Zegers & Stijn Wijdeven
+# January 2016
+
+	# create buffer.
+		#ARGS= clip_shape(shp): shape imput file
+		#radius (int): meters
+		#results= buffer around objects
+
 Buffer <- function(clip_shp, radius){
 	if (is.null(clip_shp)){
 		buff_poly <- is.na(clip_shp)
