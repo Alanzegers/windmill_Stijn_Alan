@@ -1,3 +1,7 @@
+#alan zegers & Stijn Wijdeven
+# January 2016
+	# Subtract shapes
+
 Subtract <- function (shp, subtraction){
 	if (is.null(subtraction[[1]])){
 		result <- 0
