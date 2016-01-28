@@ -1,3 +1,9 @@
+## Alan Zegers & Stijn Wijdeven
+# January 2016
+
+	# Clip data to specified shape.
+
+
 Clipper <- function(list){
 	clip_list <- c()
 	for(i in list[1:5]){
