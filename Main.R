@@ -71,7 +71,7 @@ subtract <- Subtract(simp_list[[6]], buffers)
 
 ### Make overlay and update data
 all_size_locations <-overlayer(subtract, RD_list[[6]])
-all_size_locations
+
 ### subtract small polygons
 ideal_locations <- subset(all_size_locations, SHAPE_Area > 500000)
 
